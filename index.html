@@ -1,9 +1,652 @@
+<!DOCTYPE html>
 <html>
-<header><title>My Awesome Website!!</title></header>
-<body>
-	<h1> Hello World! </h1>
+<head>
+<style>office
+body {
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+}
 
-	<p> Test: </p>
-	<a href="clone/index.html">link text</a>
+<!--
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    width: 175px;
+    background-color: #FFFFFF;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+-->
+/* unvisited link */
+a:link {
+    color: #280F9C;
+}
+
+/* visited link */
+a:visited {
+    color: #280F9C;
+}
+
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+</style>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+</head>
+
+<body bgcolor=FFFFFF background="" link=#3366CC vlink=#3366CC>
+<style>
+    p {
+        margin: 8px;
+        margin-left: 0;
+    }
+</style>
+
+
+<ul><p><img border="0" src="/images/headshot.png" width="150" height="150"></p>
+	<p><a href="https://outlook.office365.com/owa/calendar/Public1@unmm.onmicrosoft.com/bookings/">Book an appointment</a>
+  <p><a href="#Teaching">Teaching</a></p>
+  <p><a href="#Schedule">Office Schedule</a></p>
+  <hr align="left" width="50%">
+  <p><a href="#Research">Research</a></p>
+  <p><a href="#Publications">Publications</a></p>
+  <p><a href="#Committees">Committees</a></p>
+  <hr align="left" width="50%">
+  <p><a href="#Astrobiology">NASA Astrobiology</a></p>
+  <p><a href="#VolCAN">NSF VolCAN</a></p>
+  <p><a href="#Swarmathon">NASA Swarmathon</a></p>
+  <p><a href="/DandA/">Code, Math, and Algorithms</a></p>
+  <p><a href="CV.pdf">Resume/CV</a></p>
+  <p><a href="#Bio">Bio</a></p>
+  <hr align="left" width="50%">
+  <p><img border="0" src="locked.png" width="15" height="18"style="vertical-align:bottom;margin-right:3px;" ><a href="https://fricke.co.uk/owa"  target=_parent>Web Mail</a></p>
+  <p><img border="0" src="locked.png" width="15" height="18"style="vertical-align:bottom;margin-right:3px;" ><a href="https://quox.fricke.co.uk/nextcloud"  target=_parent>Cloud</a></p>
+
+<p><img border="0" src="locked.png" width="15" height="18"style="vertical-align:bottom;margin-right:3px;" ><a href="https://www.icloud.com/#find"  target=_parent>Find iPhones</a></p>
+<hr align="left" width="50%">
+<p><img border="0" src="locked.png" width="15" height="18"style="vertical-align:bottom;margin-right:3px;" ><a href="https://quox.fricke.co.uk:443/lam/">LDAP Admin</a></p>
+<p><img border="0" src="locked.png" width="15" height="18"style="vertical-align:bottom;margin-right:3px;" ><a href="https://login.opendns.com/">OpenDNS</a></p>
+
+<p><img border="0" src="locked.png" width="15" height="18"style="vertical-align:bottom;margin-right:3px;" ><a href="https://tinman.fricke.co.uk/hexamailguard/">Spam Management</a></p>
+<p><img border="0" src="locked.png" width="15" height="18"style="vertical-align:bottom;margin-right:3px;" ><a href="https://fricke.co.uk/ecp" target=_parent>Email Management</a></p>
+<hr align="left" width="50%">
+<p><a target="_blank" rel="noopener noreferrer" href="https://www.bbc.co.uk/radio/player/bbc_world_service#"  target=_parent>BBC World Service</a></p>
+<hr align="left" width="50%">
+<p><img border="0" src="locked.png" width="15" height="18"style="vertical-align:bottom;margin-right:3px;" ><a target="_blank" rel="noopener noreferrer" href="https://glinda.fricke.co.uk"  target=_parent>Cameras</a></p>
+<!-- <p><img border="0" src="locked.png" width="15" height="18"style="vertical-align:bottom;margin-right:3px;" ><a href="https://fricke.co.uk/ComputerTime">ComputerTime</a></p> -->
+<hr align="left" width="50%">
+<p><a href="#SocialMedia">Social Media</a></p>
+<p><a href="#PGP_Key">PGP Key</a></p>
+<p><a href="#Photographs">Photographs</a></p>
+<p><a href="http://enlighten.enphaseenergy.com/public/systems/LRh68711">Solar Power</a></p>
+<p><img border="0" src="locked.png" width="15" height="18" style="vertical-align:bottom;margin-right:3px;"><a href="https://auth.ecobee.com/u/login?">A/C</a></p>
+<p><a href="http://quox.fricke.co.uk/cgi-bin/awstats.pl?config=fricke.co.uk">Website Usage</a></p>
+<p><a href="http://quox.fricke.co.uk/bandwidthd">Bandwidth Usage</a></p>
+<p><img border="0" src="internal.png" width="15" height="18"style="vertical-align:bottom;margin-right:3px;" ><a href="http://gateway.fricke.co.uk">Gateway</a></p>
+<p><a href="https://stats.uptimerobot.com/xn6NWtGyW">Website Uptime</a></p>
+<p><img border="0" src="locked.png" width="15" height="18"style="vertical-align:bottom;margin-right:3px;" ><a href="https://tinman.fricke.co.uk:8443/maxview/manager/login.xhtml">RAID Manager</a></p>
+<p><img border="0" src="internal.png" width="15" height="18"style="vertical-align:bottom;margin-right:3px;" ><a href="http://tinman.fricke.co.uk:8086">Disk Sentinal</a></p>
+<p><a href="http://quox.fricke.co.uk/cgi-bin/apcupsd/multimon.cgi">UPS Status</a></p>
+<p><a href="http://tinman.fricke.co.uk:8085">Tinman HW Sensors</a></p>
+<p><a href="https://setiathome.berkeley.edu/hosts_user.php?sort=rpc_time&rev=0&show_all=1&userid=9107852">BOINC Hosts</a></p>
+<p><a href="https://boincstats.com/en/stats/-1/user/detail/48949/projectList"><img src = "http://boincstats.com/signature/-1/user/48949/sig.png" height=70 width=155/></a></p>
+</ul>
+
+<div style="margin-left:175px;padding:1px 16px;height:1000px;">
+<H1>Matthew Fricke</H1>
+
+<h2><a name="Teaching">Teaching</a></h2>
+<p>
+      <a href="Teaching/CodingForBeginners">Coding for Beginners</a><br>
+
+	<a href="Teaching/CS491_2024/HPC_Course_Syllabus.pdf">CS491: High Performance Computing (Spring, 2024)</a> (Instructor, Course Site)<br>
+	<a href="Teaching/CS151_2020/CS151_Syllabus.pdf">CS151: Computer Programming Fundamentals for Non-Majors (Spring, 2020)</a> (Instructor, Course Site)<br>
+        <a href="Teaching/CS151">CS151: Computer Programming Fundamentals with C++ (Summer, 2003)</a> (Instructor, Course Site)<br>
+        <a href="Teaching/CS152/OOP.pdf">CS152: Computer Programming Fundamentals with Java</a> (OOP Lecture)<br>
+        <a href="Teaching/CS201/CS201Lecture.pdf">CS201: Discrete Mathematics</a> (Proofs Lecture)<br>
+        <a href="Teaching/CS251">CS251: Intermediate Programming with Java</a> (Teaching Assistant, Lab Site)<br>
+        <a href="Teaching/CS261">CS261: Mathematical Foundations of Computer Science</a> (Instructor, Course Site)<br>
+        <a href="Teaching/CS523_2013spring/">CS523: Complex Adaptive Systems (Spring 2013)<font color="#3366CC"></font></a> (Teaching Assistant, Course Site)<br>
+        <a href="Teaching/CS523_2017spring/">CS523: Complex Adaptive Systems (Spring 2017)<font color="#3366CC"></font></a> (Instructor, Course Site)<br>
+        <a href="Teaching/CS591_Swarm_Robotics_2017fall/syllabus.pdf">CS591: Programming Swarm Robots (Fall 2017)<font color="#3366CC"></font></a> (Instructor, Course Site)<br>
+        <a href="Teaching/qbio-2018.pdf">Q-bio (Summer 2018)<font color="#3366CC"></font></a>(Models Lecture)<br>
+        <a href="Teaching/CARC_CS471_Lecture.pdf">CARC CS/Math471: Introduction to Scientific Computing (Fall 2018)<font color="#3366CC"></font></a> (HPC Lecture)<br>
+	<img border="0" src="locked.png" width="15" height="18"style="vertical-align:bottom;margin-right:3px;" ><a href="Teaching/CS533_Experimental_Methods_in_Computer_Science/syllabus.pdf">CS533: Experimental Methods in Computer Science</a><font color="#3366CC"></font></a> (Part 2 of a two part course. Part 1 taught by Prof Mueen)<br>
+<a href="Teaching/CARC_Workshop_v1.5.pdf">Intro to CARC Workshop (Spring 2019)<font color="#3366CC"></font></a><br></p>
+
+<h2><a name="Schedule">Office Schedule</h2>
+
+<!-- <a href="https://calendar.google.com/calendar?cid=cHZrOGp0Y2hhaXFrNTYyb2FsNGtqamQ0NThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">Direct link.</a> -->
+<a href="https://outlook.office365.com/owa/calendar/fb7c63b4d36544c5926067ba62663d5a@unm.edu/51b5983375bf4e6b8b603c127169bf2814850532942449951120/calendar.html">Calendar Link</a>. <a href="https://outlook.office365.com/owa/calendar/Public1@unmm.onmicrosoft.com/bookings/">Book an appointment</a>.
+<br>
+
+<!-- <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=America%2FDenver&amp;src=cHZrOGp0Y2hhaXFrNTYyb2FsNGtqamQ0NThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%233366CC&amp;showTitle=0&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&amp;mode=WEEK" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
+<iframe src='https://outlook.office365.com/owa/calendar/fb7c63b4d36544c5926067ba62663d5a@unm.edu/0b073563308746d881f826aaabadbd5818262594267348310230/calendar.html' width='100%' height='100%' scrolling='yes' style='border:0'></iframe>
+<iframe src='https://outlook.office365.com/owa/calendar/Public1@unmm.onmicrosoft.com/bookings/' width='100%' height='100%' scrolling='yes' style='border:0'></iframe>
+
+<H2><a name="Research">Interests and Research</a></H2>
+
+<p>Current Activities:</p>
+
+&#9679; Center for Advanced Research Computing: High performance computing research support for a wide array of projects, from COVID modelling to Quantum Algorithms and Neuroimaging.<br>
+&#9679; ChiliHouse: Developing Robot Gardener systems for the Moon and Mars. (NASA MINDS).<br>
+&#9679; Space Challenge 2: Algorithms for Robotic Resource Collection on the Moon (Johnson Space Center: SC2).<br>
+&#9679; VolCAN: Coordinated Drone Surveys of Volcano Gas Emissions (NSF National Robotics Initiative).<br>
+&#9679; Agnostic Biosignatures: Polymer Characterization from Mass Spectography Data using Machine Learning (NASA).<br>
+&#9679; Agnostic Biosignatures: Generation of Non-Earthlike Metabolisms (NASA).<br>
+&#9679; Immune System Scaling (UNM BCLab). <br>
+
+<p>My work has two main themes: Understanding biological processes through computer simulation and modelling, and the design of search algorithms for teams of robots. The computational biology research focuses on signalling and search processes in the immune system and search strategies in <i>Pogonomyrmex sp
+.</i> desert seed-harvester ants.</p>
+
+<p>My work is funded by the <a href="nai.nasa.gov">NASA Astrobiology Institute</a>, as part of the Agnostic Biosignatures for Extant Life program, to develop algorithms for detection of complex molecules that qualify as having been produced by living processes. This work will help us understand the data we receive from space probes to other worlds.</p>
+
+<p>I was technical lead for Swarmathon III and IV and was software lead for Swarmathons I and II. The Swarmathon is a robotics competition held at NASA Kennedy Space Center.</p>
+
+<p>The robotics work is primarily funded by <a href="https://www.nasa.gov/centers/kennedy/home/index.html">NASA Kennedy Space Center</a>. It is intended to help us understand how autonomous robots on other planets could best search for resources in support of human missions, and also to provide a robotics educational platform for underrepresented students from <a href="https://www.nasa.gov/offices/education/programs/national/murep/about/index.html">MUREP</a> institutions. The educational component is in the form of an annual robotics competition called <a href="http://fricke.co.uk/Research/Swarmathon/">Swarmathon</a>.</p>
+
+
+<h2>Socially Responsible Algorithms </h2>
+
+<p>
+Algorithms control an increasing portion of our daily lives. Ensuring that those algorithms are fair is a difficult but critical task. We recently challenged proposed changes to the U.S. Department of Housing and Urban Development's (HUD) proposal to dramatically revise rules around responsibility for algorithmic fairness in the Fair Housing Act (<a href=https://www.regulations.gov/document?D=HUD-2019-0067-2823>Comment on Regulations,<a href="https://www.forbes.com/sites/fernandezelizabeth/2019/11/17/will-machine-learning-algorithms-erase-the-progress-of-the-fair-housing-act/#79843e641d7c"> Forbes article</a>).</p>
+
+<h2><a name="Astrobiology">NASA Astrobiology</a></h2>
+The main page for the NASA funded LAB project is at <a href="https://www.agnosticbiosignatures.org/about">Labratory for Agnostic Biosignatures Website</a>.
+
+<h2><a name="VolCAN">NSF VolCAN</a></h2>
+The main page for the NSF funded VolCAN project is at <a href="https://volcan.cs.unm.edu">VolCAN Website</a>.
+
+<h2><a name="Swarmathon">NASA Swarmathon</a></h2>
+The main page for the UNM-NASA Swarmathon is at <a href="https://swarmathon.cs.unm.edu">Swarmathon Website</a>.
+<p>The current version of the quick robot install USB disk image is here: <a href="http://www.cs.unm.edu/~mfricke/SwarmathonIV/SwarmathonIV_Swarmie_Image_Jan-7th-2019.iso">Swarmathon IV Swarmie Disk Image (16.03 GB)</a>. When you boot from this image it will WIPE your robot harddrive and install Ubuntu 16.04 with ROS Kinetic Kame and a git repository containing the competition base code.</p>
+<H2><a name="Publications">Publications</H2>
+
+<H3>Book Chapters</H3>
+<p>"Using RuleBuilder to graphically define and visualize BioNetGen-language patterns and reaction rules." Suderman, Ryan, G. Matthew Fricke, and William S. Hlavacek, In: Hlavacek W. (eds) <strong>Modeling Biomolecular Site Dynamics. Methods in Molecular Biology</strong>, vol 1945. Humana Press, New York, NY, 2019. <a href="Research/MethodsInMolecularBiology2019.pdf"> PDF</a></p>
+
+<p>"Ant Colonies as a Model of Human Computation", Melanie Moses, Tatiana Flanagan, Kenneth Letendre and G. Matthew Fricke, In: <strong>Handbook of Human Computation</strong>, Springer, 2014. <a href=http://www.springer.com/us/book/9781461488057>website</a></p>
+<H3>Journals</H3>
+<p><i>Aerial Survey Robotics in Extreme Environments: Mapping Volcanic CO2 Emissions With Flocking UAVs.</i> John Erickesen et al., <b>Frontiers in Control Engineering</b>, https://doi.org/10.3389/fcteg.2022.836720 (2022). <a href=https://www.frontiersin.org/articles/10.3389/fcteg.2022.836720/full>Web</a>, <a href=Research/FrontiersInControl2022.pdf>PDF</a></p>
+<p><i>The Grayness of the Origin of Life.</i> Hillary H. Smith et al., <b>Life</b>, 11, 498. https://doi.org/10.3390/life11060498 (2021). <a href=https://www.mdpi.com/2075-1729/11/6/498>Web</a>, <a href=Research/Life_2021.pdf>PDF</a></p>
+<i>Machine learning feature analysis illuminates disparity between E3SM climate models and observed climate change.</i> Nichol, J. Jake, Matthew G. Peterson, Kara J. Peterson, G. Matthew Fricke, and Melanie E. Moses.  <b>Journal of Computational and Applied Mathematics</b> (2021): 113451. <a href=https://www.sciencedirect.com/science/article/pii/S0377042721000704>Web</a>, <a href=Research/JCAM_2021.pdf>PDF</a>
+<p><i>Aerial strategies advance volcanic gas measurements at inaccessible, strongly degassing volcanoes. </i>Emily. J. Liu et al.<b> Science Advances</b>, (2020) Vol. 6, no. 44, eabb9103, DOI: 10.1126/sciadv.abb9103. <a href="https://advances.sciencemag.org/content/advances/6/44/eabb9103.full.pdf"> PDF</a></p>
+<p><i>Swarm Foraging Review: Closing the Gap Between Proof and Practice.</i> Qi Lu, G. Matthew Fricke, John C. Ericksen, and Melanie E. Moses<b> Current Robotics Reports</b> (2020): 1-11.<a href="Research/CurrentRoboticsReports2020.pdf"> PDF</a> </p>
+<p><i>Variability in the Analysis of a Single Neuroimaging Dataset by Many Teams.</i> Rotem Botvinik-Nezer et al. <b>Nature</b> (2020)<a href="https://www.nature.com/articles/s41586-020-2314-9">. Paper</a></p>
+<p><i>Modeling T Cell Motion in Tissues During Immune Responses.</i> Cannon, Judy, Melanie E. Moses, Janie R. Byrum, Paulus Mrass, G Matthew Fricke, and Humayra Tasnim.  In: <b>Biophysical Journal</b> 116 (Feb. 2019), 322a. doi: 10.1016/j.bpj.2018.11.1749.</p>
+<p><i>Quantitative Measurement of Na&iuml;ve T cell Association with Dendritic Cells, FRCs, and Blood Vessels in Lymph Nodes.</i>, Tasnim, Humayra, G. Matthew Fricke, Janie R. Byrum, Justyna O. Sotiris, Judy L. Cannon, and Melanie E. Moses.  <b>Frontiers in immunology</b> 9 (2018). <a href="Research/FrontiersInImmunology2018.pdf"> PDF</a> </p>
+<p><i>ROCK regulates the intermittent mode of interstitial T cell migration in inflamed lungs.</i> Paulus Mrass, Sreenivasa Oruganti, G. Matthew Fricke, Justyna Tafoya, Janie Byrum , Lihua Yang, Samantha Hamilton, Mark Miller, Melanie Moses and Judy Cannon. <b>Nature Communications</b> (2017)</p>
+<p><i>Persistence and Adaptation in Immunity: T Cells Balance the Extent and Thoroughness of Search.</i> Fricke, G. Matthew, Kenneth A. Letendre, Melanie E. Moses, and Judy L. Cannon. <b>PLoS Computational Biology</b> 12.3 (2016): e1004818.<a href="Research/PlosCompBio2016_draft.pdf"> PDF</a></p>
+<p><i>Immune-inspired search strategies for robot swarms.</i> G. Matthew Fricke, Joshua Hecker, Judy Cannon, and Melanie Moses. <b>Robotica</b> 34, no. 08 (2016): 1791-1810. Cambridge Press.<a href="Research/Robotica2016.pdf"> PDF</a></p>
+<p><i>Quantifying the Effect of Colony Size and Food Distribution on Harvester Ant Foraging</i>, Tatiana P. Flanagan, Kenneth Letendre, William R. Burnside, G. Matthew Fricke, and Melanie E. Moses, <b>PLoS ONE</b>, 2012. <a href="Research/PlosOne2012.pdf">PDF</a></p>
+<p><i>GetBonNie for building, analyzing, and sharing rule-based models</i>, Bin Hu; G. Matthew Fricke; James R. Faeder; Richard G. Posner; William S. Hlavacek <b>Bioinformatics</b> 2009,  Oxford Journals</p>
+<p><i>Receptor aggregation by intermembrane interactions: A Monte Carlo study</i>
+G. Matthew Fricke; James L. Thomas<b>
+Biophysical Chemistry</b> Volume 119, Issue 2, 20 Jan 2006; Pages 205-211.<a href="Research/PhysicalBioChemistry2006.pdf"> PDF</a></p>
+
+
+<H3>Conference Proceedings</H3>
+
+<p><i><a href="Research/LuICRA2020.pdf">A  Bio-Inspired  Transportation  Network  for  Scalable Swarm Foraging</a></i>, Qi Lu, G. Matthew Fricke, Takaya Tsuno, and Melanie E. Moses, In 2020 <b>IEEE/RSJ International Conference on Intelligent Robots and Systems</b>, IEEE Press, 2020.</p>
+
+<p><i><a href="Research/EricksenIRC2020.pdf">LoCUS: A loss-tolerant volcano survey algorithm</a></i>, Ericksen John, Abhinav Aggarwal, G. Matthew Fricke, and Melanie E. Moses, <b>IEEE Robotics and Computing Conference (IRC)</b> (2020)</p>
+
+<p><i>Ignorance is Not Bliss: An Analysis of Central-Place Foraging Algorithms</i>, Abhinav Aggarwal, Diksha Gupta, William F. Vining, G. Matthew Fricke, and Melanie E. Moses,  In 2019 <b>IEEE/RSJ International Conference on Intelligent Robots and Systems</b>, IEEE Press, 2019. <a href="Research/Price_Of_Ignorance_IROS2019.pdf">Paper PDF</a>, <a href="Research/IROS2019_Presentation.pdf">Presentation PDF</a></p>
+
+<p><i><a href="Research/LuICRA2019.pdf">Comparing physical and simulated performance of a deterministic and a bio-inspired stochastic foraging strategy for robot swarms</a></i>, Lu, Qi, Antonio D. Griego, G. Matthew Fricke, and Melanie E. Moses.,  In 2019 <b>IEEE/RSJ International Conference on Robotics and Automation</b>, IEEE Press, 2019.</p>
+
+<p><i>Brief Announcement: On Site Fidelity and the Price of Ignorance
+in Swarm Robotic Central Place Foraging Algorithms,</i>
+ Abhinav Aggarwal, G. Matthew Fricke, Diksha Gupta, and Melanie Moses. In <b>Symposium on Principles of Distributed Computing (PODC)</b>, ACM Press, 2019, https://doi.org/10.1145/3293611.3331572.<a href="Research/PODC2019.pdf"> PDF</a></p>
+
+<p><i>A Distributed Deterministic Spiral Search Algorithm for Swarms.</i> G. Matthew Fricke, Joshua P. Hecker, Antonio D. Griego, Linh T. Tran, and Melanie Moses. In 2016 <b>IEEE/RSJ International Conference on Intelligent Robots and Systems</b>, IEEE Press, 2016. .<a href="Research/DDSA_FrickeIROS2016.pdf"> PDF</a></p>
+
+<p><em>Distinguishing Adaptive Search From Random Search in Robots and T cells</em>, G. M. Fricke, J. P. Hecker, S. R. Black, J. L. Cannon, M. E. Moses, in <strong>Proceedings of the Conference on Genetic and Evolutionary Computation</strong><em><strong>, </strong></em>Association for Computing Machinery, 2015.</p>
+<p>
+  <i>From Microbiology to Microcontrollers: Robot search patterns inspired by T cell movement</i>, G. Matthew Fricke, Francois Asperti-Boursin, Joshua P. Hecker, Cannon Judy L., and Melanie E. Moses. <strong>Proceedings of the 12th European Conference on Artificial Life</strong>, The MIT Press, 2013.<a href="https://www.mitpressjournals.org/doi/abs/10.1162/978-0-262-31709-2-ch151"> Paper</a></p>
+
+
+<p><em>How Ants Turn Information into Food</em>, T. Paz Flanagan, K. Letendre, W. Burnside, G. M. Fricke, M. Moses, in <em>IEEE SSCI 2011 - </em><strong>Symposium Series on Computational Intelligence - IEEE Symposium on Artificial Life</strong> (2011), pp. 178&#8211;185.<a href=Research/Alife2011AntsInfoFood.pdf> PDF</a></p>
+
+
+<p><em>Emergent Representation in a Robot Control Architecture</em>, Claiborne, Andy., Fricke, G. Matthew., Lopes, L., Lewis, Joseph., and Luger, George, <strong>UNM-NASA PURSUE</strong> Conference, (2000). </p>
+
+<H2><a name="Committees">Committees</H2>
+<p>John Ericksen, PhD Dissertation, <i>Drone Strategies for Volcano Surveys.</i>, Current.</p>
+<p>J. Jake Nichol, PhD Dissertation, <i>Climate Model Reconciliation with Machine Learning.</i>, Current.</p>
+<p>Antonio Griego, MS Thesis, <i>Impedance Control for Dynamic Manipulation</i>, Current.</p>
+<p>Quincy Wofford, MS Thesis, <i>Performance Predictable Application Platforms for Distributed Computing</i>, 2020.</p>
+
+<h3>Ant Inspired Robot Search</h3>
+
+<a href="http://nasaswarmathon.com">The UNM-NASA Swarmathon Competition</a>.
+
+<b>The iAnts were invented by Josh Hecker, Karl Stollis, and Melanie Moses at the University of New Mexico. Find out more at <a href="http://swarms.cs.unm.edu/">swarms.cs.unm.edu.</b>
+
+
+<p>Swarmathon Rovers with Mounted Grippers</p>
+<p><iframe width="640" height="360" src="https://www.youtube.com/embed/9MZcrQEZVn8" frameborder="0" allowfullscreen></iframe></p>
+
+<p><iframe width="640" height="360" src="https://www.youtube.com/embed/Z7A1hS_G5p0" frameborder="0" allowfullscreen></iframe></p>
+
+<p>Swarmathon Tutorial Release 0.2.1 <a href="http://www.cs.unm.edu/~mfricke/Swarmathon_Rover_GUI_Tutorial_RoverVersion_0.2.1.mp4">(MP4)</a><br>
+<video width="640" height="480" controls>
+  <source src="http://www.cs.unm.edu/~mfricke/Swarmathon_Rover_GUI_Tutorial_RoverVersion_0.2.1.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</p>
+
+<p>PowerSearch3D Videos <a href="http://www.cs.unm.edu/~mfricke/TCellSim.mp4">(MP4)<br></a>
+<video width="640" height="480" controls>
+  <source src="http://www.cs.unm.edu/~mfricke/TCellSim.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</p>
+
+<p>Pneumatic Gripper Trials</p>
+<p><iframe width="640" height="480" src="https://www.youtube.com/embed/fPs_GqKmPyE" frameborder="0" allowfullscreen></iframe></p>
+
+Gripper Mockup Video (<a href="http://www.cs.unm.edu/~mfricke/GripperMockup.mp4">MP4</a>)
+<br>
+<video width="640" height="480" controls>
+  <source src="http://www.cs.unm.edu/~mfricke/GripperMockup.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</p>
+
+  <table>
+  <tr>
+  <td>
+	<img alt="Pogonomyrmex Rugosus" align=middle width="108" height="128" src = "http://www.discoverlife.org/IM/I_ANT/0000/320/Pogonomyrmex_rugosus,_worker,I_ANT45.jpg"/>
+	<font size=1>Pogonomyrmex Rugosus </font>
+  </td>
+  <td valign=top>
+	<p>Ant Colony Algorithms (ACOs) are used in shortest-path problem domains such as chip design and network routing. We investigated how three species of the desert harvester ant (<i>Pogonomyrmex Rugosus, Maricopa, and Desertorum</i>) share information about their surroundings, especially with regard to the scaling of information sharing with colony size. This information was compared to computational models of various foraging strategies.</p>
+  </td>
+  </tr>
+<tr>
+<td>
+<img alt="iAnt Autonomous Robot" align=middle width="212" height="145" src = "Research/iAnt/assembly_images/Small/zf.jpg"/>
+</td>
+<td>
+<p>
+The iAnt uses search patterns inspired by Pogonomymex sp.
+<br><a href="Research/iAnt/iAntDemo.mp4">iAnt Demo Video.</a>
+<br><a href="http://iant.cs.unm.edu">The iAnts Project</a>
+<!--<br><a href="http://wiki.cs.unm.edu/scalenet/doku.php?id=projects:build_an_iant">Instructions for building an iAnt.</a>-->
+</p>
+</td>
+</tr>
+  </table>
+
+  <p>BioNetGen: Biochemical reaction networks are central to understanding and
+  influencing the operation of biological cells. <a href="http://getbonnie.org/">GetBonNie</a>
+  (<a href="http://getbonnie.org/">http://getbonnie.org</a>) and <a href="http://www.bionetgen.org/">BioNetGen</a>
+  (<a href="http://www.bionetgen.org/">http://www.bionetgen.org</a>)
+
+  automate the development of reaction networks so that biologists can
+  create and study detailed models of cellular biochemistry.
+  <a href="Research/BioNetGen/ICSB2005_poster_draft.pdf">
+  Poster</a>. <a href="Research/BioNetGen/LAT0%20Model%202.wmv">Video</a>.</p>
+
+    <p>
+    <a href="RuleBuilder_GettingStarted.pdf">Getting started with RuleBuilder</a>
+  </p>
+
+        <iframe width="640" height="480" src="https://www.youtube.com/embed/0AF4Uu5N8fo" frameborder="0" gesture="media" allowfullscreen></iframe>
+
+        <br>
+        You can download the software here: <a href="Research/BioNetGen/distribution/OSX/RuleBuilder-1.50-Beta-BioNetGen.2.0.28.dmg">
+            OS X
+        </a>,
+        <a href="Research/BioNetGen/distribution/Win32/RuleBuilder-1.50-Beta-BioNetGen-2.0.28.zip">
+            Windows
+        </a>. Be warned however that these distributions are of RuleBuilder 1.50 Beta bundled with BioNetGen 2.0.28, which are out of date. For the latest builds please go to the bionetgen website.
+        </p>
+
+    <p>
+        The streamlined <a href="https://github.com/RuleWorld/RuleBuilder"> latest version of RuleBuilder 2</a> is on GitHub.
+
+
+        The original <a href="https://github.com/gmfricke/RuleBuilderV1"> version of RuleBuilder 1</a> is also on GitHub.
+    </p>
+
+    <table>
+        <tr>
+            <td>
+                <img alt="T-Cell" align=middle width="100" height="100" src="tcell.jpg" />
+                <font size=1>T-Cell Targeting Infected Cell</font>
+            </td>
+            <td valign=top>
+                CemPro: Macrophages and T-cells communicate with one another at the cell surface
+                through ligands and receptors. The proteins that form the ligands and
+                receptors cluster during signaling. The mechanism for this clustering is
+                unknown.
+            </td>
+        </tr>
+    </table>
+    <p>
+        We model proteins on the cell surface with a Metropolis Monte Carlo
+        lattice and measure the conditions under which clustering occurs. We then
+        bring two virtual cell membranes into contact and measure the cross membrane
+        binding forces needed to cause protein phase separation.
+        <a href="Research/CemPro/BIOPHYSCHEM-S-05-00242.pdf">
+            Paper in
+        </a> <a href="Research/CemPro/BIOPHYSCHEM-S-05-00242.pdf">
+            Biophysical Chemistry
+        </a>.
+        <a href="Research/CemPro/slideshow.htm">PowerPoint Web Slideshow</a>.
+        <a href="Research/CemPro/cempro_presentation.pdf">PDF Slideshow</a>.
+    </p>
+    <br>
+
+
+    <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+        KomPhy: Algorithms for reconstructing
+        phylogenies from character sequences encounter enormous search spaces even for
+        small numbers of taxa. Techniques are needed to speed up the exploration of
+        these spaces so that larger problems can be approached.&nbsp; In the past neural
+        networks have provided a framework for tackling complex problems very quickly.
+        My thesis describes and tests a new neural network approach to phylogenetic
+        reconstruction called KomPhy.<a href="Research/KomPhy/Thesis.pdf">
+            Thesis.
+        </a><a href="Research/KomPhy/slideshow.htm">
+            Slideshow
+        </a>.
+        <a href="Research/KomPhy/KomPhy.zip">Software</a>.
+    </p>
+
+
+
+    <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+        CultureAL: Semester
+        project for David Ackley's Artificial Life course at UNM. CulturAL uses a very
+        simple framework to explore the interaction of learned traits (directly and
+        through peer emulation) and biological traits. Processes such as 'shielding'
+        and the Baldwin Effect are explored. Learning in this model benefits the
+        population as a whole through emulation but is counterproductive for the
+        learner who is much better off copying others and procreating. The population
+        as a whole evolved to minimize direct learning and maximize emulation of peers
+        relying on the background mutation rate to produce enough 'learners' to feed
+        the emulation strategy.. The most prevalent impact shared knowledge has on
+        genetic evolution is shielding, which allows populations to survive that would
+        otherwise die out and allows genetic mutation to explore the fitness landscape
+        with more freedom. <a href="Learning/Alife/final_crit.htm">
+            Presentation
+        </a>.
+    </p>
+
+
+
+    <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+        Madcat: Extension
+        of the Copycat AI framework to a robotic path finding problem which formed the
+        basis of Joseph Lewis' PhD. <a href="http://starcat.org/">
+            Starcat
+        </a> is Joseph's current research.
+        <a href="Research/Madcat/errca.pdf">
+            Madcat
+        </a>
+        <a href="Research/Madcat/errca.pdf">
+            NASA Student Conference Paper
+        </a>.
+    </p>
+    NASA Autonomous Control Engineering
+</a>. </p>
+
+<h2><a name="SocialMedia">Social Media</a></h2>
+
+<p>
+Facebook: <a href="https://facebook.com/gmfricke" target=_parent>https://facebook.com/gmfricke</a><br>
+YouTube channel: <a href=https://www.youtube.com/user/MatthewFricke target=_parent>https://www.youtube.com/user/MatthewFricke</a><br>
+Google scholar profile: <a href=https://scholar.google.com/citations?user=hdPxTWwAAAAJ&hl=en>https://scholar.google.com/citations?user=hdPxTWwAAAAJ&hl=en</a></p>
+
+<h2><a name="PGP_Key">PGP Key</a></h2>
+
+<p>Pretty Good Privacy Email Key: <a href="http://fricke.co.uk/pgppublickey.txt">http://fricke.co.uk/pgppublickey.txt</a></p>
+
+
+<h2><a name="Bio">Bio</a></h2>
+
+<p>I am a research faculty member at the
+  <a href="http://www.unm.edu">University of New Mexico</a>
+  <a href="http://www.cs.unm.edu">Computer Science
+  Department</a>. I am also the Software Lead for the UNM-NASA Swarm Robotics Challenge: <a href="http://nasaswarmathon.com">nasaswarmathon.com</a>.
+
+<p>
+  <a href="http://www.anthro.appstate.edu/">BA in Anthropology from Appalachian State University.</a><BR>
+  <a href="http://math.unm.edu">BS in Math from the University of New Mexico.</a><BR>
+  <a href="http://www.cs.unm.edu">MS in Computer Science from the University of New Mexico.</a><BR
+  <a href="http://www.cs.unm.edu">PhD in Computer Science from the University of New Mexico.</a><BR
+</p>
+
+
+  <p>My wife, <a href="http://santafeuniversity.academia.edu/SuzanneFricke">Suzanne</a>, and I have four boys: Henry, Leo, Owen, and Tristan. We live in
+  Albuquerque, New Mexico, USA. I was born and raised in <a href=http://en.wikipedia.org/wiki/Shrewsbury>Shrewsbury, UK</a>, but have lived in <a href=http://en.wikipedia.org/wiki/Mount_Airy,_North_Carolina>Mount Airy, North Carolina</a> and <a href=http://en.wikipedia.org/wiki/Albuquerque,_New_Mexico>Albuquerque, New Mexico</a> for most of my life. I have been interested in computers since playing with a <a href=http://en.wikipedia.org/wiki/Commodore_64>Commodore 64</a> when I was ten years old.</p>
+
+  <p>Go Figure Software is my contracting company. Through Go Figure Software I have provided programming services to scientists
+  at the UNM Physics Department and Los Alamos National Labs.</p>
+
+
+
+
+  <h3><a name="Photographs">Photographs</a></h3>
+
+<a href=/photos/EU_2008/index.html>Europe 2008</a>
+
+  <h3>Tikal, Guatemala</h3>
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <a href="photos/Aug%204th%20-%20Picture%20020.jpg">
+  <img border="0" src="Aug%204th%20-%20Picture%20020_small.jpg" xthumbnail-orig-image="photos/Aug 4th - Picture 020.jpg" width="257" height="337"></a><a href="photos/Aug%204th%20-%20Picture%20041.jpg"><img border="0" src="Aug%204th%20-%20Picture%20041_small.jpg" xthumbnail-orig-image="photos/Aug 4th - Picture 041.jpg" width="256" height="192"></a><a href="photos/Aug%205th%20-%20Picture%20007.jpg"><img border="0" src="Aug%205th%20-%20Picture%20007_small.jpg" xthumbnail-orig-image="photos/Aug 5th - Picture 007.jpg" width="256" height="192"></a><a href="photos/Aug%206th%20-%20Picture%20020.jpg"><img border="0" src="Aug%206th%20-%20Picture%20020_small.jpg" xthumbnail-orig-image="photos/Aug 6th - Picture 020.jpg" width="256" height="192"></a><a href="photos/Aug%206th%20-%20Picture%20038.jpg"><img border="0" src="Aug%206th%20-%20Picture%20038_small.jpg" xthumbnail-orig-image="photos/Aug 6th - Picture 038.jpg" width="256" height="192"></a><a href="photos/Aug%206th%20-%20Suzanne%20overlooks%20Tikal's%20grand%20plaza.jpg"><img border="0" src="Aug%206th%20-%20Suzanne%20overlooks%20Tikal's%20grand%20plaza_small.jpg" xthumbnail-orig-image="photos/Aug 6th - Suzanne overlooks Tikal's grand plaza.jpg" width="256" height="192"></a><a href="photos/Aug%207th%20-%20DSC00287.JPG"><img border="0" src="Aug%207th%20-%20DSC00287_small.JPG" xthumbnail-orig-image="photos/Aug 7th - DSC00287.JPG" width="256" height="192"></a></p>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <h3>Monaghan, Ireland</h3>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <a href="photos/Aughnaseda%20(View%20From%20Farmhouse).JPG">
+  <img border="0" src="Aughnaseda%20(View%20From%20Farmhouse)_small.JPG" xthumbnail-orig-image="photos/Aughnaseda (View From Farmhouse).JPG" width="256" height="192"></a><a href="photos/DSC01344.JPG"><img border="0" src="DSC01344_small.JPG" xthumbnail-orig-image="photos/DSC01344.JPG" width="256" height="192"></a></p>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <h3>New Mexico</font></h3>
+
+
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <a href="photos/DSC01686.JPG">
+  <img border="0" src="DSC01686_small.JPG" xthumbnail-orig-image="photos/DSC01686.JPG" width="256" height="192"></a><a href="photos/DSC01622.JPG"><img border="0" src="DSC01622_small.JPG" xthumbnail-orig-image="photos/DSC01622.JPG" width="256" height="192"></a><a href="photos/DSC00413.JPG"><img border="0" src="DSC00413_small.JPG" xthumbnail-orig-image="photos/DSC00413.JPG" width="256" height="192"></a><a href="photos/DSC00516.JPG"><img border="0" src="DSC00516_small.JPG" xthumbnail-orig-image="photos/DSC00516.JPG" width="256" height="192"></a><a href="photos/DSC00537.JPG"><img border="0" src="DSC00537_small.JPG" xthumbnail-orig-image="photos/DSC00537.JPG" width="256" height="192"></a><a href="photos/DSC00912a.JPG"><img border="0" src="DSC00912a_small.JPG" xthumbnail-orig-image="photos/DSC00912a.JPG" width="256" height="192"></a><a href="photos/DSC00966.JPG"><img border="0" src="DSC00966_small.JPG" xthumbnail-orig-image="photos/DSC00966.JPG" width="256" height="192"></a><a href="photos/DSC01089.JPG"><img border="0" src="DSC01089_small.JPG" xthumbnail-orig-image="photos/DSC01089.JPG" width="256" height="192"></a></p>
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <a href="photos/Henry%20and%20Train%201.jpg">
+  <img border="0" src="Henry%20and%20Train%201_small.jpg" xthumbnail-orig-image="photos/Henry and Train 1.jpg" width="256" height="170"></a><a href="photos/Owen%20and%20Chris.jpg"><img border="0" src="Owen%20and%20Chris_small.jpg" xthumbnail-orig-image="photos/Owen and Chris.jpg" width="256" height="170"></a><a href="photos/Skiing%202005%20038.jpg"><img border="0" src="Skiing%202005%20038_small.jpg" xthumbnail-orig-image="photos/Skiing 2005 038.jpg" width="152" height="192"></a><a href="photos/Skiing%202005%20037.jpg"><img border="0" src="Skiing%202005%20037_small.jpg" xthumbnail-orig-image="photos/Skiing 2005 037.jpg" width="256" height="192"></a>
+
+<a href="photos/Leo%20in%20Albuquerque.jpg"><img border="0" src="photos/Leo%20in%20Albuquerque_small.jpg" xthumbnail-orig-image="photos/Leo%20in%20Albuquerque.jpg" width="256" height="170"></a><a href="photos/sam1b.jpg"><img border="0" src="sam1b_small.jpg" xthumbnail-orig-image="photos/sam1b.jpg" width="256" height="170"></a>
+</p>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <h3>Mt. St. Helens, Oregon</h3>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <a href="photos/DSC00899.JPG">
+  <img border="0" src="DSC00899_small.JPG" xthumbnail-orig-image="photos/DSC00899.JPG" width="256" height="192"></a><a href="photos/DSC00909.JPG"><img border="0" src="DSC00909_small.JPG" xthumbnail-orig-image="photos/DSC00909.JPG" width="256" height="192"></a><a href="photos/DSC00911.JPG"><img border="0" src="DSC00911_small.JPG" xthumbnail-orig-image="photos/DSC00911.JPG" width="256" height="192"></a></p>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <h3>North Carolina</font></h3>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <a href="photos/DSC01156.JPG">
+  <img border="0" src="DSC01156_small.JPG" xthumbnail-orig-image="photos/DSC01156.JPG" width="256" height="192"></a><a href="photos/DSC01172.JPG"><img border="0" src="DSC01172_small.JPG" xthumbnail-orig-image="photos/DSC01172.JPG" width="256" height="192"></a></p>
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <a href="photos/Suzanne%20with%20Henry%20on%20the%20Gate.jpg">
+  <img border="0" src="Suzanne%20with%20Henry%20on%20the%20Gate_small.jpg" xthumbnail-orig-image="photos/Suzanne with Henry on the Gate.jpg" width="193" height="272"></a><a href="photos/Henry%20on%20the%20gate%205.jpg"><img border="0" src="Henry%20on%20the%20gate%205_small.jpg" xthumbnail-orig-image="photos/Henry on the gate 5.jpg" width="230" height="272"></a><a href="photos/Henry%20Martin%20Fricke%20(Silktree%20Farm).jpg"><img border="0" src="Henry%20Martin%20Fricke%20(Silktree%20Farm)_small.jpg" xthumbnail-orig-image="photos/Henry Martin Fricke (Silktree Farm).jpg" width="192" height="272"></a></p>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <h3>San Deigo, California</h3>
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <a href="photos/Henry%20San%20Diego.jpg"><img border="0" src="photos/Henry%20San%20Diego_small.jpg" xthumbnail-orig-image="photos/Henry%20San%20Diego.jpg" width="200" height="300"></a>
+  </p>
+
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <h3>Yr Wyddfa (Snowdon) and Anglesey, Wales</h3>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <a href="photos/DSC01264.JPG">
+  <img border="0" src="DSC01264_small.JPG" xthumbnail-orig-image="photos/DSC01264.JPG" width="256" height="192"></a><a href="photos/DSC01406.JPG"><img border="0" src="DSC01406_small.JPG" xthumbnail-orig-image="photos/DSC01406.JPG" width="256" height="192"></a><a href="photos/DSC01420.JPG"><img border="0" src="DSC01420_small.JPG" xthumbnail-orig-image="photos/DSC01420.JPG" width="256" height="192"></a><a href="photos/DSC01425.JPG"><img border="0" src="DSC01425_small.JPG" xthumbnail-orig-image="photos/DSC01425.JPG" width="256" height="192"></a><a href="photos/DSC01426.JPG"><img border="0" src="DSC01426_small.JPG" xthumbnail-orig-image="photos/DSC01426.JPG" width="256" height="192"></a></p>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <h3>Shrewsbury, England</h3>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <a href="photos/IMAG0263%20touched.jpg">
+  <img border="0" src="IMAG0263%20touched_small.jpg" xthumbnail-orig-image="photos/IMAG0263 touched.jpg" width="256" height="192"></a><a href="photos/DSC01428.JPG"><img border="0" src="DSC01428_small.JPG" xthumbnail-orig-image="photos/DSC01428.JPG" width="256" height="192"></a></p>
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Charles Darwin's Childhood Home</p>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <h3>Edinburgh, Scotland</h3>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <a href="photos/DSC01437.JPG">
+  <img border="0" src="DSC01437_small.JPG" xthumbnail-orig-image="photos/DSC01437.JPG" width="256" height="192"></a><a href="photos/DSC01442.JPG"><img border="0" src="DSC01442_small.JPG" xthumbnail-orig-image="photos/DSC01442.JPG" width="256" height="192"></a></p>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <h3>Teotihuican, Mexico</h3>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <a href="photos/DSC01520.JPG">
+  <img border="0" src="DSC01520_small.JPG" xthumbnail-orig-image="photos/DSC01520.JPG" width="256" height="192"></a><a href="photos/DSC01523.JPG"><img border="0" src="DSC01523_small.JPG" xthumbnail-orig-image="photos/DSC01523.JPG" width="256" height="192"></a><a href="photos/DSC01534.JPG"><img border="0" src="DSC01534_small.JPG" xthumbnail-orig-image="photos/DSC01534.JPG" width="256" height="192"></a><a href="photos/DSC01542.JPG"><img border="0" src="DSC01542_small.JPG" xthumbnail-orig-image="photos/DSC01542.JPG" width="256" height="192"></a><a href="photos/DSC01604.JPG"><img border="0" src="DSC01604_small.JPG" xthumbnail-orig-image="photos/DSC01604.JPG" width="256" height="192"></a></p>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <h3>Japan</h3>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <a href="photos/japanDSCN1549.jpg">
+  <img border="0" src="japanDSCN1549_small.jpg" xthumbnail-orig-image="photos/japanDSCN1549.jpg" width="256" height="192"></a><a href="photos/japanDSCN1555.jpg"><img border="0" src="japanDSCN1555_small.jpg" xthumbnail-orig-image="photos/japanDSCN1555.jpg" width="256" height="192"></a></p>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <h3>Moscow, Russia</h3>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <a href="photos/Lenin's%20Tomb,%20Red%20Square,%20Moscow,%20April%201st%201989%20001.jpg">
+  <img border="0" src="Lenin's%20Tomb,%20Red%20Square,%20Moscow,%20April%201st%201989%20001_small.jpg" xthumbnail-orig-image="photos/Lenin's Tomb, Red Square, Moscow, April 1st 1989 001.jpg" width="256" height="185"></a><a href="photos/Lenin's%20Tomb,%20Red%20Square,%20Moscow,%20April%201st%201989%20002.jpg"><img border="0" src="Lenin's%20Tomb,%20Red%20Square,%20Moscow,%20April%201st%201989%20002_small.jpg" xthumbnail-orig-image="photos/Lenin's Tomb, Red Square, Moscow, April 1st 1989 002.jpg" width="256" height="184"></a></p>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <h3>Martinique</h3>
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0">
+  <a href="photos/Suzanne,%20Fort-de-France,%20Martinique.jpg">
+  <img border="0" src="Suzanne,%20Fort-de-France,%20Martinique_small.jpg" xthumbnail-orig-image="photos/Suzanne, Fort-de-France, Martinique.jpg" width="256" height="170"></a></p>
+
+
+
+
+
+  <p class="MsoNormal" style="margin-top:0; margin-bottom:0" align="center">&nbsp;
+  </p>
+
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "theme": "classic",
+  "position": "top",
+  "static": true,
+  "content": {
+    "message": "Be aware that some third party software on this website use cookies and may be subject to EU privacy laws."
+  }
+});
+</script>
+
+
 </body>
+<footer>
+</footer>
 </html>
